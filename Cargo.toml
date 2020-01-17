@@ -1,6 +1,6 @@
 [package]
 name = "text_box"
-version = "0.1.5"
+version = "0.1.6"
 authors = ["dafox416 <dvd_2014@hotmail.com>"]
 edition = "2018"
 description = "Create useful messagen in console with text boxes using 'termion'."
