@@ -1,5 +1,4 @@
 extern crate termion;
-extern crate read_input;
 
 use termion::{clear, cursor, color};
 use termion::event::Key;
@@ -8,8 +7,6 @@ use termion::raw::IntoRawMode;
 
 use std::io::{Write, stdout};
 use std::fmt;
-
-use read_input::prelude::*;
 
 struct TextBox {
     x: u8,
