@@ -8,6 +8,7 @@ use termion::raw::IntoRawMode;
 use std::io::{Write, stdout};
 use std::fmt;
 
+/// A TextBox is defined here.
 struct TextBox {
     x: u8,
     y: u8,
@@ -19,6 +20,8 @@ struct TextBox {
 }
 
 impl fmt::Display for TextBox {
+
+    /// Added easy fmt::Display to print a TextBox just with print! println!
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         let mut stdout = stdout()
             .into_raw_mode()
