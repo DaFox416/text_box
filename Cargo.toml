@@ -5,7 +5,9 @@ authors = ["dafox416 <dvd_2014@hotmail.com>"]
 edition = "2018"
 description = "Create useful messages in console with text boxes using 'termion'."
 license = "MIT OR Apache-2.0"
-repository = ""
+repository = "https://github.com/DaFox416/text_box.git"
+documentation = "https://docs.rs/text_box"
+keywords = ["tty", "text", "box", "message"]
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
