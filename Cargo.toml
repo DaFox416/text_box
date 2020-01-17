@@ -1,9 +1,9 @@
 [package]
 name = "text_box"
-version = "0.1.6"
+version = "0.1.7"
 authors = ["dafox416 <dvd_2014@hotmail.com>"]
 edition = "2018"
-description = "Create useful messagen in console with text boxes using 'termion'."
+description = "Create useful messages in console with text boxes using 'termion'."
 license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
